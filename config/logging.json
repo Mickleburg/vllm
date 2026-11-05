@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {"metadata": {"()": "privacy_logging.MetadataFormatter"}},
+  "handlers": {"console": {"class": "logging.StreamHandler", "formatter": "metadata", "stream": "ext://sys.stdout"}},
+  "root": {"handlers": ["console"], "level": "INFO"},
+  "loggers": {
+    "vllm": {"handlers": ["console"], "level": "INFO", "propagate": false},
+    "uvicorn": {"handlers": ["console"], "level": "INFO", "propagate": false},
+    "uvicorn.error": {"handlers": ["console"], "level": "INFO", "propagate": false},
+    "uvicorn.access": {"handlers": ["console"], "level": "INFO", "propagate": false}
+  }
+}

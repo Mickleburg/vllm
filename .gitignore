@@ -1,0 +1,13 @@
+.tools/
+.env
+.env.*
+*.env
+__pycache__/
+*.pyc
+docs/~$*
+artifacts/
+k8s/secret.yaml
+docs/kasp-mltech-vllm-test.docx
+*.log
+*.safetensors
+*.gguf

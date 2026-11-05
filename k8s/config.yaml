@@ -1,0 +1,14 @@
+host: 0.0.0.0
+port: 8000
+served-model-name: qwen-cpu
+dtype: float32
+max-model-len: 2048
+max-num-seqs: 4
+max-num-batched-tokens: 2048
+enforce-eager: true
+load-format: safetensors
+enable-log-requests: false
+enable-log-outputs: false
+disable-log-stats: true
+uvicorn-log-level: info
+log-config-file: /app/config/logging.json

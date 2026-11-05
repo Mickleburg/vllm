@@ -1,0 +1,96 @@
+[
+  {
+    "case": "short",
+    "requests": 4,
+    "concurrency": 2,
+    "max_tokens": 32,
+    "prompt_tokens": [
+      67,
+      67,
+      67,
+      67
+    ],
+    "ttft_p50_s": 0.8004966999869794,
+    "e2e_p50_s": 5.541294299997389,
+    "output_tokens_per_s": 11.546638070823368,
+    "requests_per_s": 0.36083243971323026,
+    "wall_s": 11.085477800108492,
+    "samples": [
+      {
+        "ttft_s": 1.1828568999189883,
+        "e2e_s": 5.4051806998904794,
+        "prompt_tokens": 67,
+        "total_tokens": 99,
+        "completion_tokens": 32
+      },
+      {
+        "ttft_s": 0.7150959998834878,
+        "e2e_s": 5.282283699838445,
+        "prompt_tokens": 67,
+        "total_tokens": 99,
+        "completion_tokens": 32
+      },
+      {
+        "ttft_s": 0.604207499884069,
+        "e2e_s": 5.693793699843809,
+        "prompt_tokens": 67,
+        "total_tokens": 99,
+        "completion_tokens": 32
+      },
+      {
+        "ttft_s": 0.8858974000904709,
+        "e2e_s": 5.677407900104299,
+        "prompt_tokens": 67,
+        "total_tokens": 99,
+        "completion_tokens": 32
+      }
+    ]
+  },
+  {
+    "case": "long",
+    "requests": 4,
+    "concurrency": 2,
+    "max_tokens": 32,
+    "prompt_tokens": [
+      1034,
+      1034,
+      1034,
+      1034
+    ],
+    "ttft_p50_s": 5.877216950058937,
+    "e2e_p50_s": 11.866280350019224,
+    "output_tokens_per_s": 5.372918128532131,
+    "requests_per_s": 0.1679036915166291,
+    "wall_s": 23.823180800070986,
+    "samples": [
+      {
+        "ttft_s": 7.826343700056896,
+        "e2e_s": 12.055127100087702,
+        "prompt_tokens": 1034,
+        "total_tokens": 1066,
+        "completion_tokens": 32
+      },
+      {
+        "ttft_s": 4.083222300047055,
+        "e2e_s": 11.935288399923593,
+        "prompt_tokens": 1034,
+        "total_tokens": 1066,
+        "completion_tokens": 32
+      },
+      {
+        "ttft_s": 3.826809999998659,
+        "e2e_s": 11.797272300114855,
+        "prompt_tokens": 1034,
+        "total_tokens": 1066,
+        "completion_tokens": 32
+      },
+      {
+        "ttft_s": 7.671211600070819,
+        "e2e_s": 11.766610600054264,
+        "prompt_tokens": 1034,
+        "total_tokens": 1066,
+        "completion_tokens": 32
+      }
+    ]
+  }
+]

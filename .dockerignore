@@ -1,0 +1,14 @@
+.git
+.tools
+.env
+.env.*
+*.env
+docs
+artifacts
+**/__pycache__
+**/*.py[cod]
+**/*.log
+**/*.safetensors
+**/*.gguf
+k8s
+tests
